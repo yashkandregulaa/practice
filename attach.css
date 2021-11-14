@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgrey;
+    font: 200 17px 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.65em;
+}
+.clr-fix{
+    clear: both;
+}
+.button {
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border: none;
+}
+.button:hover {
+    background-color: white;
+    color:black;
+    padding: 10px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
+.gimme-space{
+    margin-top: 500px;
+}
+.box-1{
+    background-color: black;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.box-2{
+    background-color: black;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.box-3{
+    background-color: black;
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    padding: 20px;
+}
+.my-form{
+    padding: 20px;
+}
+.form-group label{
+    display: block;
+}
+.my-form input[type="text"], textarea{
+    padding: 10px;
+    width: 100%;
+}
+.group{
+    margin-top: 20px;
+}
+.group .sec{
+    margin-bottom: 20px;
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.main-bar{
+    float: left;
+    width: 70%;
+}
+.side-bar{
+    float: right;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.main-bar p{
+    font-weight: 700;
+}
+.p-box{
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
